@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "planar-door-425406-h3-tfstate"
     prefix = "env/prod"
   }
 }
